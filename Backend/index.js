@@ -19,7 +19,7 @@ app.use("/create", userRoutes);
 
 const PORT = 4001;
 const CONNECTION_URL =
-  "mongodb+srv://Pradumn:Reset$123@cluster0.mm8bmot.mongodb.net/synopsysDB?retryWrites=true&w=majority";
+  "mongodb+srv://Username:password@cluster0.mm8bmot.mongodb.net/DbName?retryWrites=true&w=majority";
 
 mongoose.set("strictQuery", true);
 mongoose
