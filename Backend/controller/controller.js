@@ -36,7 +36,7 @@ export const getUserDetails = async (req, res) => {
     res.status(401).json({ message: error.message });
   }
 };
-
+// code for edit logged in user details
 export const editUserDetails = async (req, res) => {
   const exp = req.body;
 
